@@ -1,0 +1,25 @@
+body{
+    font-size: 30pxS;
+}
+
+.heading {
+    font-style: italic;
+    color: green;
+    font-size: 1.5rem;
+}
+.text {
+    color:blue;
+    font-size: 24px;
+    line-height:  140%;
+
+
+}
+
+.marked {
+    color: red;
+    font-weight: bold;
+    font-weight: 300;
+    text-decoration: underline;
+    letter-spacing: 0.5em;
+
+}
