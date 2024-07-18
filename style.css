@@ -1,3 +1,9 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
 body{
     font-size: 30pxS;
 }
@@ -6,6 +12,13 @@ body{
     font-style: italic;
     color: green;
     font-size: 1.5rem;
+    border: 1px dashed red;
+    padding: 1em;
+    margin: 2em;
+    padding-top: 2em;
+    border-bottom: 2em;
+    margin-top: 5em;
+   
 }
 .text {
     color:blue;
@@ -22,4 +35,34 @@ body{
     text-decoration: underline;
     letter-spacing: 0.5em;
 
+}
+.text2 .marked {
+    background-color: pink;
+}
+ol {
+    list-style-type: disc;
+    border: 1px dashed red;
+    padding: 1em;
+    margin: 2em;
+    padding-top: 2em;
+    border-bottom: 2em;
+    margin-top: 5em;
+}
+ol li::before {
+content: (number)
+}
+#red{
+    color: red;
+}
+#orange{
+    color: orange;
+}
+#coral{
+    color: coral;
+}
+#yellow{
+    color: yellow;
+}
+#darkorange{
+    color: darkorange;
 }
